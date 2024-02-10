@@ -31,13 +31,6 @@ function App() {
           <Route path="/registration" element={<Registration />} ></Route>
         </Routes> 
       </BrowserRouter>
-      
-      
-      {/* 
-      <Questions/>
-      <Subscript/>
-      <Reviews slides={slides} />
-      */}
     </div>
   );
 }
