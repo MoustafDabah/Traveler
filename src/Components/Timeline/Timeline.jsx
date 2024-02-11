@@ -1,22 +1,16 @@
 import React from "react";
-import "./Timeline.scoped.css";
+import "./Timeline.scoped.css"
 
+import { GiPlainCircle } from "react-icons/gi";
 
-import { PiNumberCircleOneFill } from "react-icons/pi";
-import { PiNumberCircleTwoFill } from "react-icons/pi";
-import { PiNumberCircleThreeFill } from "react-icons/pi";
-import { PiNumberCircleFourFill } from "react-icons/pi";
-import { PiNumberCircleFiveFill } from "react-icons/pi";
-import { PiNumberCircleSixFill } from "react-icons/pi";
 
 
 const Timeline =()=>{
     return(
         <div className="tt">
-            
             <div className="Timeline">
                 <div className="container-timeline left-container">
-                <PiNumberCircleOneFill className="icon-timeline"/>
+                <GiPlainCircle className="icon-timeline"/>
                     <div className="text-box">
                         <h2>bla bla bla</h2>
                         <h6>---</h6>
@@ -26,7 +20,7 @@ const Timeline =()=>{
                     </div>
                 </div>
                 <div className="container-timeline right-container">
-                <PiNumberCircleTwoFill className="icon-timeline"/>
+                <GiPlainCircle className="icon-timeline"/>
 
                     <div className="text-box">
                         <h2>bla bla bla</h2>
@@ -38,7 +32,7 @@ const Timeline =()=>{
                     </div>
                 </div>
                 <div className="container-timeline left-container">
-                <PiNumberCircleThreeFill className="icon-timeline"/>
+                <GiPlainCircle className="icon-timeline"/>
 
                     <div className="text-box">
                         <h2>bla bla bla</h2>
@@ -49,7 +43,7 @@ const Timeline =()=>{
                     </div>
                 </div>
                 <div className="container-timeline right-container">
-                <PiNumberCircleFourFill className="icon-timeline"/>
+                <GiPlainCircle className="icon-timeline"/>
 
                     <div className="text-box">
                         <h2>bla bla bla</h2>
@@ -61,7 +55,7 @@ const Timeline =()=>{
                     </div>
                 </div>
                 <div className="container-timeline left-container">
-                <PiNumberCircleFiveFill className="icon-timeline"/>
+                <GiPlainCircle className="icon-timeline"/>
 
                     <div className="text-box">
                         <h2>bla bla bla</h2>
@@ -73,7 +67,7 @@ const Timeline =()=>{
                     </div>
                 </div>
                 <div className="container-timeline right-container">
-                <PiNumberCircleSixFill className="icon-timeline"/>
+                <GiPlainCircle className="icon-timeline"/>
                     <div className="text-box">
                         <h2>bla bla bla</h2>
                         <h6>---</h6>

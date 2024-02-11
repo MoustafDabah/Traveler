@@ -3,7 +3,7 @@
     margin-top: 4rem;
 }
 .middle .secContainer{
-    background: var(--background);
+    background: var(--background2);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 7px 18px;
 }
 .middle .secContainer .grid{
@@ -43,7 +43,6 @@
 }
 .middle .secContainer .grid span .icon1{
     font-size: 3rem;
-    cursor: pointer;
     color: var(--text-primary);
 }
 .middle .secContainer .Dispflex .flex1 .dispflex{

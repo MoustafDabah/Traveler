@@ -58,45 +58,45 @@ const Navbar = () => {
         <div className={active}>
           <ul className="navLists flex">
             <li className="navItem">
-              <Link to='#' className="navLink">
+              <Link to='/' className="navLink">
                 Home
               </Link>
             </li>
             <li className="navItem">
-              <Link to='#' className="navLink">
+              <Link to='/' className="navLink">
                 products
               </Link>
             </li>
             <li className="navItem">
-              <Link to='#' href="#" className="navLink">
+              <Link to='/' className="navLink">
                 Resources
               </Link>
             </li>
             <li className="navItem">
-              <Link to='#' className="navLink">
+              <Link to='/' className="navLink">
                 About Us
               </Link>
             </li>
             <li className="navItem">
-              <Link to='#' className="navLink">
+              <Link to='/' className="navLink">
                 contact
               </Link>
             </li>
-            <div className="headerBtns flex">
-              <button className="btn loginBtn ">
-                <Link to='/registration'>Registration</Link>
-              </button>
-              <button className="btn loginBtn">
-                <Link to='/'>Book Now</Link>
-              </button>
-              <Link to='/' className="darkMode" onClick={switchTheme}>
-                {theme === "light" ? <BsFillMoonStarsFill /> : <IoMdSunny />}
-              </Link>
-            </div>
           </ul>
           <div onClick={removeNav} className="closeNavbar">
             <AiFillCloseCircle className="icon menuIcon" />
           </div>
+        </div>
+        <div className="headerBtns flex">
+          <button className="btn loginBtn ">
+            <Link to='/registration'>Registration</Link>
+          </button>
+          <button className="btn loginBtn">
+            <Link to='/login'>Login</Link>
+          </button>
+          <Link to='/' className="darkMode" onClick={switchTheme}>
+            {theme === "light" ? <BsFillMoonStarsFill /> : <IoMdSunny />}
+          </Link>
         </div>
         <div onClick={showNav} className="togglrNavbar">
           <PiDotsNineBold className="icon " />

@@ -3,11 +3,13 @@ import "./Testimation.scoped.css";
 import data from "./data.js";
 
 import { FaArrowLeft } from "react-icons/fa";
-import { FaArrowRight } from "react-icons/fa";
 import { FaQuoteRight } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
 import { FaStarHalfAlt } from "react-icons/fa";
 import { CiStar } from "react-icons/ci";
+import { IoIosArrowForward } from "react-icons/io";
+import { IoIosArrowBack } from "react-icons/io";
+
 
 const Testimation = () => {
     const [people] = useState(data);
@@ -67,10 +69,10 @@ const Testimation = () => {
                     );
                 })}
                 <button className="prev" onClick={() => setIndex(index - 1)}>
-                    <FaArrowLeft />
+                    <IoIosArrowBack />
                 </button>
                 <button className="next" onClick={() => setIndex(index + 1)}>
-                    <FaArrowRight />
+                    <IoIosArrowForward />
                 </button>
             </div>
         </section>
